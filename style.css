@@ -135,7 +135,7 @@ p{
     color: #1e3932;
 }
 .contentSection1Image{
-    background-image: url(/assets/images/starbucksRewards.png);
+    background-image: url(./assets/images/starbucksRewards.png);
     background-size: cover;
     background-position: center;
 }
