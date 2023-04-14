@@ -19,6 +19,14 @@ body{
     margin: 0px;
     padding: 0px;
 }
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
 
 .header{
     width: 100%;
@@ -78,7 +86,7 @@ body{
     background-color: white;
     color: black;
     font-family: sodoSansLight, arial;
-    font-size: 15px;
+    font-size: 14px;
     border: solid 1px black;
     border-radius: 15px;
     width: 75px;
@@ -95,7 +103,7 @@ body{
     background-color: black;
     color: white;
     font-family: sodoSansLight, arial;
-    font-size: 15px;
+    font-size: 14px;
     border: solid 1px black;
     border-radius: 15px;
     width: 90px; 
@@ -104,4 +112,129 @@ body{
     background-color: hsl(0, 0%, 30%);
     transition: .3s;
     cursor: pointer;
+}
+.contentSection{
+    width: 1400px;
+    margin-top: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: greenyellow;
+}
+.contentSection1{
+    height: 270px;
+    background-color: #d4e9e2;
+}
+.contentItem{
+    width: 700px;
+    color: #1e3932;
+}
+.contentSection1Image{
+    background-image: url(/assets/images/starbucksRewards.webp);
+    background-size: cover;
+    background-position: center;
+}
+.contentItemH1{
+    font-family: soSans, arial;
+}
+.contentItemP{
+    font-family: soSansLight, arial;
+}
+.contentSectionTextContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contentSection1ItemH1{
+    font-size: 25px;
+}
+.contentSection1ItemP{
+    font-size: 18px;
+}
+.contentSectionButton{
+    margin-left: auto;
+    margin-right: auto;
+    height: 32px;
+    font-family: sodoSansLight, arial;
+    font-size: 15px;
+    color: #1e3932;
+    background-color: transparent;
+    border: solid 1px #1e3932;
+    border-radius: 15px;
+    width: 95px;
+}
+.contentSectionButton:hover{
+    transition: .3s;
+    background-color: rgb(100, 100, 100, 0.175);
+    cursor: pointer;
+}
+.contentSection2{
+    background-color: #f6bfd9;
+    height: 600px;
+}
+.contentSection2Image{
+    background-image: url(assets/images/twoCoffeeGlasses.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contentSection2ItemH1{
+    font-size: 50px;
+}
+.contentSection2ItemP{
+    font-size: 25px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentSection2TextContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 300px;
+}
+.contentSection3{
+    background-color: #fff4d4;
+    height: 600px;
+}
+.contentSection3Image{
+    background-image: url(assets/images/coolPinkDrink.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contentSection3ItemH1{
+    font-size: 50px;
+}
+.contentSection3ItemP{
+    font-size: 25px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentSection3TextContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 300px;
+}
+.contentSection4{
+    background-color: #d4e9e2;
+    height: 600px;
+}
+.contentSection4Image{
+    background-image: url(assets/images/burger.png);
+    background-size: cover;
+    background-position: center;
+}
+.contentSection4ItemH1{
+    font-size: 50px;
+}
+.contentSection4ItemP{
+    font-size: 25px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentSection4TextContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 400px;
 }
